@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "confortable",
+        "nolahurst",
+        "vincci",
+        "Vincci"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:Vin}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}
