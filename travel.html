@@ -103,21 +103,21 @@
         <form action="">
             <div class="inputBox">
                 <h3>where to</h3>
-                <input type="text" placeholder="place name">
+                <input type="text" placeholder="place name" required="required">
             </div>
             <div class="inputBox">
                 <h3>how many</h3>
-                <input type="number" placeholder="number of guests">
+                <input type="number" placeholder="number of guests" required="required">
             </div>
             <div class="inputBox">
                 <h3>arrivals</h3>
-                <input type="date">
+                <input type="date" required="required">
             </div>
             <div class="inputBox">
                 <h3>leaving</h3>
-                <input type="date">
+                <input type="date"required="required">
             </div>
-            <input type="submit" class="btn" value="book now">
+            <button class="btn">Book now</button>
         </form>
 
     </div>
@@ -555,14 +555,14 @@
 
         <form action="">
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" placeholder="name" required="required">
+                <input type="email" placeholder="email" required="required">
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
+                <input type="number" placeholder="number" required="required">
+                <input type="text" placeholder="subject" required="required">
             </div>
-            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10" required="required"></textarea>
             <input type="submit" class="btn" value="send message">
         </form>
 
